@@ -117,7 +117,7 @@
         android:layout_marginTop="62dp"
         android:layout_marginRight="40dp"
         android:text="Sharing knowledge is the key to unlocking that power"
-        android:textColor="#F3EFEF"
+        android:textColor="#000000"
         android:textSize="34sp"
         android:textStyle="bold" />
 

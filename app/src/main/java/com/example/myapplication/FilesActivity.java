@@ -88,6 +88,15 @@ public class FilesActivity extends AppCompatActivity {
                 filterFiles();
             }
         });
+
+        // Add feedback button click listener
+        Button feedbackButton = findViewById(R.id.feedbackButton);
+        feedbackButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openFeedbackActivity();
+            }
+        });
     }
 
     private void requestPermissions() {
@@ -204,5 +213,10 @@ public class FilesActivity extends AppCompatActivity {
         intent.setDataAndType(uri, "*/*");
         intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
         startActivity(intent);
+    }
+
+    private void openFeedbackActivity() {
+        Intent feedbackIntent = new Intent(FilesActivity.this, FeedbackActivity.class);
+        startActivity(feedbackIntent);
     }
 }

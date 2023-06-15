@@ -2,7 +2,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
-
+    <TextView
+        android:id="@+id/textViewHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CHOOSE YOUR SEMESTER"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="#FF4081"
+        android:padding="16dp"
+        android:gravity="center" />
     <GridView
         android:id="@+id/semesterGridView"
         android:layout_width="match_parent"

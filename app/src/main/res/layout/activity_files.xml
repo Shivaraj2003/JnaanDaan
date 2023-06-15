@@ -39,4 +39,14 @@
         android:horizontalSpacing="16dp"
         android:padding="8dp" />
 
+    <Button
+        android:id="@+id/feedbackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="Feedback"
+        android:textColor="@android:color/black" />
+
 </RelativeLayout>

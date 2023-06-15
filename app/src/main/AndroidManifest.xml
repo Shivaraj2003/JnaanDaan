@@ -38,13 +38,18 @@
         <!-- ... other application components ... -->
         <activity
             android:name=".FilesActivity"
-            android:theme="@style/Theme.AppCompat">
+            android:theme="@style/AppTheme">
         </activity>
 
 
         <activity android:name=".SignInActivity"
-            android:theme="@style/Theme.AppCompat"
+            android:theme="@style/AppTheme"
             />
+        <activity
+            android:name=".FeedbackActivity"
+            android:theme="@style/AppTheme"
+            android:label="Feedback Activity">
+        </activity>
 
         <activity
             android:name=".Info"
@@ -57,18 +62,18 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".DateTimeActivity"
-            android:theme="@style/Theme.AppCompat"/>
+            android:theme="@style/AppTheme"/>
 
         <activity android:name=".SignUpActivity"
-            android:theme="@style/Theme.AppCompat">
+            android:theme="@style/AppTheme">
         </activity>
         <activity android:name=".Upload"
-            android:theme="@style/Theme.AppCompat">
+            android:theme="@style/AppTheme">
         </activity>
 
         <activity
             android:name=".SemSubjectActivity"
-            android:theme="@style/Theme.AppCompat"
+            android:theme="@style/AppTheme"
             android:label="SemSubjectActivity">
         </activity>
 
@@ -81,13 +86,13 @@
             android:name="com.google.firebase.messaging.default_notification_channel_id"
             android:value="@string/default_notification_channel_id" />
 
-        <service
-            android:name=".MyFirebaseMessagingService"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-            </intent-filter>
-        </service>
+<!--        <service-->
+<!--            android:name=".MyFirebaseMessagingService"-->
+<!--            android:exported="false">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="com.google.firebase.MESSAGING_EVENT" />-->
+<!--            </intent-filter>-->
+<!--        </service>-->
 
     </application>
 
