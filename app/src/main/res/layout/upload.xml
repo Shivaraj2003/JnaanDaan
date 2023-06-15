@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewBranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Branch:" />
+
+    <!-- Spinner for branch selection -->
+    <Spinner
+        android:id="@+id/spinnerBranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewBranch"
+        android:layout_marginTop="8dp"
+        android:entries="@array/branch_options" />
+
+    <TextView
+        android:id="@+id/textViewSemester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerBranch"
+        android:layout_marginTop="16dp"
+        android:text="Semester:" />
+
+    <!-- Spinner for semester selection -->
+    <Spinner
+        android:id="@+id/spinnerSemester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewSemester"
+        android:layout_marginTop="8dp"
+        android:entries="@array/semester_options" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerSemester"
+        android:layout_marginTop="16dp"
+        android:text="Title:" />
+
+    <EditText
+        android:id="@+id/editTextTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTitle"
+        android:layout_marginTop="16dp"
+        android:text="Upload File" />
+
+    <!-- ImageView to display the uploaded file -->
+    <ImageView
+        android:id="@+id/imageViewFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonUpload"
+        android:layout_marginTop="16dp"
+        android:visibility="gone" />
+
+    <!-- Cancel button to remove the uploaded file -->
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonUpload"
+        android:layout_marginTop="115dp"
+        android:layout_marginRight="190dp"
+        android:text="Cancel"
+        />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonUpload"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="118dp"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textViewUploadedFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonUpload"
+        android:layout_marginTop="16dp"
+        android:text="Uploaded File:"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textViewFileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewUploadedFile"
+        android:layout_marginTop="8dp"
+        android:text=""
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="318dp"
+        android:layout_height="166dp"
+        android:layout_below="@id/buttonSubmit"
+        android:layout_marginLeft="40dp"
+
+
+        android:layout_marginTop="62dp"
+        android:layout_marginRight="40dp"
+        android:text="Sharing knowledge is the key to unlocking that power"
+        android:textColor="#F3EFEF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

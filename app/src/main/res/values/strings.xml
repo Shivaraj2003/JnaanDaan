@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="default_notification_channel_id">YOUR_CHANNEL_ID</string>
+    <string-array name="branch_options">
+        <item>BRANCH</item>
+        <item>CSE</item>
+        <item>ISE</item>
+        <item>ECE</item>
+        <item>MECH</item>
+        <item>AI</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="semester_options">
+        <item>SEM</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string name="branch_placeholder">Branch</string>
+    <string name="semester_placeholder">Semester</string>
+    <string name="subject_placeholder">Subject</string>
+    <string name="title_placeholder">Note Title</string>
+
+
+        <string-array name="branch_array">
+
+            <item>CSE</item>
+            <item>ISE</item>
+            <item>ECE</item>
+            <item>MECH</item>
+            <item>AI</item>
+            <item>Other</item>
+            <!-- Add more branch options as needed -->
+        </string-array>
+
+        <string-array name="semester_array">
+
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+            <item>5</item>
+            <item>6</item>
+            <item>7</item>
+            <item>8</item>
+            <!-- Add more semester options as needed -->
+        </string-array>
+
+
+
+</resources>

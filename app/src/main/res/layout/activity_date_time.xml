@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Note"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:paddingBottom="16dp" />
+
+    <Spinner
+        android:id="@+id/branchSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/branch_placeholder"
+        android:hint="Branch"
+        android:entries="@array/branch_options"
+        android:defaultValue="@string/branch_placeholder"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <Spinner
+        android:id="@+id/semesterSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/semester_placeholder"
+        android:hint="Semester"
+        android:entries="@array/semester_options"
+        android:defaultValue="@string/semester_placeholder"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/subjectEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:text="Subject Name"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Note Title"
+        android:background="#3F51B5"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/chooseFileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose File"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/selectedFileTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected File: None"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:visibility="gone"
+        android:padding="8dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/uploadButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:textColor="#FFFFFF"
+        android:background="#3F51B5"
+        android:textSize="16sp"
+        android:padding="8dp" />
+
+</LinearLayout>
