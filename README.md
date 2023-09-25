@@ -37,3 +37,7 @@ JnaanDaan is a cutting-edge mobile app designed to facilitate seamless knowledge
 - Share your notes with others for collaboration or find notes uploaded by other users.
 - Use the intelligent search to quickly locate specific topics within notes.
 - Engage with the user community in feedback forums and share your knowledge.
+
+## Contributors 🙌
+
+- [**Shamir LC**](https://github.com/shamirmohammed)
