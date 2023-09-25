@@ -40,4 +40,6 @@ JnaanDaan is a cutting-edge mobile app designed to facilitate seamless knowledge
 
 ## Contributors 🙌
 
-- [**Shamir LC**](https://github.com/shamirmohammed)
+- **Shamir LC**
+  - GitHub: [Shamir LC on GitHub](https://github.com/shamirmohammed)
+
