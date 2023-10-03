@@ -14,7 +14,7 @@ JnaanDaan is a cutting-edge mobile app designed to facilitate seamless knowledge
 - Categorize notes by subject, semester, or other criteria.
 - Manage and edit your uploaded notes.
 
-### 3. Secure Cloud Storage
+### 3. Secure Cloud Storage 
 - Utilize Firebase's secure cloud storage for safe note storage.
 - Access your uploaded notes from multiple devices.
 
