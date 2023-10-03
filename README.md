@@ -4,7 +4,7 @@ JnaanDaan is a cutting-edge mobile app designed to facilitate seamless knowledge
 
 ## 🚀 Features
 
-### 1. User Profiles
+### 1. User Profile
 - Create and manage personalized user accounts and profiles.
 - Customize your profile with a profile picture and personal information.
 - Connect with other students within the app.
