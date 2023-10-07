@@ -33,7 +33,7 @@ JnaanDaan is a cutting-edge mobile app designed to facilitate seamless knowledge
 ## 📖 Usage
 - Sign up for an account or log in if you already have one.
 - Create your user profile, including a profile picture and personal information.
-- Upload your notes and categorize them by subject or semester.
+- Upload your notes and categorize them by subject and semester.
 - Share your notes with others for collaboration or find notes uploaded by other users.
 - Use the intelligent search to quickly locate specific topics within notes.
 - Engage with the user community in feedback forums and share your knowledge.
